@@ -1,0 +1,24 @@
+Dear Jure,
+
+This is Sachin of Kosei,cs224w & cs246. How are you? It was nice meeting you again at Turi Data Science Summit in July. 
+
+Sorry for getting back late, I wanted to follow with your intrest in collaborating for intent to publish a paper on community detection by learning latent aspect of a social network domain, which dictate the formation of communities in that domain, which is beyond nodes sharing common attributes & edges.
+
+This is continuation of my project done for cs224w - http://snap.stanford.edu/class/cs224w-2014/projects2014/cs224w-91-final.pdf 
+tl;dr of the paper - A supervised learning model that given features of a pair of nodes, predicts if they atleast share one community between them, The resulting folded community membership graph is inputed to Circles for fitting unknow egonet. The model outperformed CESNA on subset of SNAP dataset published by Julian McAuley - 
+Average Jacard score:
+
+
+I've since replaced Cicles with BigClam - which had better resuts & computational performance than Circle because of the non-combinatory approach. code - 
+
+But still these 2 approaches, doesn't carry forward the learnt aspect all the way during fitting and also information  
+Doesn't perform well 
+
+Since then, I've comeup with a model, something akin to traget label in word2Vec or GloVe & extended CESNA, Here's the math & approach - http://goo.gl/5dK7YZ
+
+I'd love to get your guidance and collobrate with you for publishing this. 
+
+Hope you have a great week ahead.
+
+Sincerly,
+Sachin
